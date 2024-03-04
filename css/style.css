@@ -1,0 +1,50 @@
+.best-movies__content {
+  margin: 0 2rem;
+  border-collapse: collapse;
+  border: 2px solid;
+  text-align: center;
+}
+
+.best-movies__content > thead th:nth-child(1) {
+  width: 5%;
+}
+.best-movies__content > thead th:nth-child(2) {
+  width: 15%;
+}
+.best-movies__content > thead th:nth-child(3) {
+  width: 20%;
+}
+.best-movies__content > thead th:nth-child(4) {
+  width: 50%;
+}
+.best-movies__content > thead th:nth-child(5) {
+  width: 10%;
+}
+
+.best-movies__content th,
+td {
+  border: 1px solid;
+}
+
+.best-movies__content img {
+  max-width: 12rem;
+}
+
+.guest-book__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.guest-book__content__favorit-movies {
+  display: flex;
+  gap: 1rem;
+}
+
+.guest-book__content__button {
+  border: 0;
+  background-color: rgb(64, 112, 199);
+  color: white;
+  font-size: medium;
+  padding: 8px 20px;
+}
