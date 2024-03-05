@@ -28,6 +28,7 @@ td {
 
 .best-movies__content img {
   max-width: 12rem;
+  margin: 8px;
 }
 
 .guest-book__content {
